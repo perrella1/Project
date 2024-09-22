@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demandas</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/abstract.svg" type="image/x-icon">
+    <script src="/backend/index.js"></script>
+</head>
+
+<body>
+    <h1>Gerenciamento pessoal</h1>
+    
+    <a href="/frontend/loginPage.html"><button2 id="login">Login  <link rel="stylesheet" href="/frontend/loginPage.html"> </button2></a>
+    <button3 id="logout">Sair  <link rel="stylesheet" href="/frontend/loginPage.html"> </button3>
+
+    
+
+    <div class="table" id="table">
+
+        <h2 id="NullMessage">Nenhuma tarefa. Adicione abaixo para começar</h2>
+        <button type="button" onclick="addRow()" id="addbtn2">Adicionar nova tarefa</button>
+       
+        
+        <table>
+            <tr id="tabela2">
+                <th>Nome da Tarefa</th>
+                <th>Status</th>
+                <th>Prioridade</th>
+                <th>Previsão de conclusão</th>
+                <th><button type="button" onclick="addRow()" class="addbtn">Adicionar nova tarefa</button></th>
+            </tr>
+
+            <tbody id="taskTableBody"></tbody>
+            <tr id="taskName">
+                <!--
+                <td><input type="text" placeholder="Nome da tarefa"></td>
+                <td><select name="Status" class="status">
+                        <option value="Null"></option>
+                        <option value="Not Started">Não iniciada</option>
+                        <option value="Ongoing">Em andamento</option>
+                        <option value="Final">Conclusão final</option>
+                        <option value="Done">Finalizado</option>
+                    </select></td>
+                <td><select name="Priority" id="" class="status">
+                        <option value="Priority1"></option>
+                        <option value="Low">Baixa</option>
+                        <option value="Medium">Média</option>
+                        <option value="High">Urgente</option>
+                    </select></td>
+                <td><input type="date" name="" id="date"></td>
+                <td>
+                    <button type="button" onclick="deleteRow()" class="deletebtn">Deletar tarefa</button>
+                </td>
+            -->
+            </tr>
+
+</table>
+    </div>
+</body>
+
+</html>
